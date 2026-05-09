@@ -149,3 +149,18 @@
     }
   }
 }
+
+/* Make dark-mode toggle visually flat across the site */
+#dark-mode-toggle,
+.theme-toggle,
+.colorscheme-toggle,
+button#dark-mode-toggle,
+a#dark-mode-toggle {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+}
