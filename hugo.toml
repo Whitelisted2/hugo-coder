@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://whitelisted2.github.io"
 
 [module]
 [module.hugoVersion]
