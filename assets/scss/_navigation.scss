@@ -166,6 +166,8 @@ a#dark-mode-toggle {
   cursor: pointer;
   &:hover,
   &:focus {
-    color: $link-color;
+    color: #1565c0;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
   }
 }
