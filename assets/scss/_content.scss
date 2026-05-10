@@ -55,9 +55,11 @@
     p {
       text-align: justify;
       text-justify: auto;
-      -ms-hyphens: auto;
-      -webkit-hyphens: auto;
-      hyphens: auto;
+      // -ms-hyphens: auto;
+      // -webkit-hyphens: auto;
+      hyphens: none;
+      overflow-wrap: normal;
+      word-break: keep-all;
     }
   }
 
