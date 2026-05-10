@@ -86,15 +86,15 @@
     }
   }
 
-  // #dark-mode-toggle {
-  //   margin: 1.7rem 0;
-  //   font-size: 2.4rem;
-  //   line-height: inherit;
-  //   bottom: 2rem;
-  //   right: 2rem;
-  //   z-index: 100;
-  //   position: fixed;
-  // }
+  #dark-mode-toggle {
+    margin: 1.7rem 0;
+    font-size: 2.4rem;
+    line-height: inherit;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 100;
+    position: fixed;
+  }
 
   #menu-toggle {
     display: none;
@@ -150,24 +150,24 @@
   }
 }
 
-/* Make dark-mode toggle visually flat across the site */
-#dark-mode-toggle,
-.theme-toggle,
-.colorscheme-toggle,
-button#dark-mode-toggle,
-a#dark-mode-toggle {
-  -webkit-appearance: none;
-  appearance: none;
-  background: transparent;
-  border: 0;
-  box-shadow: none;
-  padding: 0;
-  margin: 0;
-  cursor: pointer;
-  &:hover,
-  &:focus {
-    color: #1565c0;
-    text-decoration: none;
-    transition: all 0.2s ease-in;
-  }
-}
+// /* Make dark-mode toggle visually flat across the site */
+// #dark-mode-toggle,
+// .theme-toggle,
+// .colorscheme-toggle,
+// button#dark-mode-toggle,
+// a#dark-mode-toggle {
+//   -webkit-appearance: none;
+//   appearance: none;
+//   background: transparent;
+//   border: 0;
+//   box-shadow: none;
+//   padding: 0;
+//   margin: 0;
+//   cursor: pointer;
+//   &:hover,
+//   &:focus {
+//     color: #1565c0;
+//     text-decoration: none;
+//     transition: all 0.2s ease-in;
+//   }
+// }
