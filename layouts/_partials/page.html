@@ -2,9 +2,26 @@
   <article>
     <header>
       <h1 class="title">
+        {{ $isAboutPage := eq .RelPermalink "/about/" }}
+        {{ if $isAboutPage }}
+        <a class="title-link" href="{{ .Permalink | safeURL }}" 
+          style="color: #4ade80; 
+            font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; 
+            font-weight: normal; 
+            display: inline-block; 
+            padding: 0.15rem 0.5rem; 
+            border-radius: 0.4rem; 
+            border: 1px solid rgba(74, 222, 128, 0.38); 
+            background: rgba(74, 222, 128, 0.12); 
+            text-decoration: none; 
+            letter-spacing: 0.02em;">
+          {{ .Title }}
+        </a>
+        {{ else }}
         <a class="title-link" href="{{ .Permalink | safeURL }}">
           {{ .Title }}
         </a>
+        {{ end }}
       </h1>
     </header>
 
